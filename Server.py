@@ -1,13 +1,14 @@
 from socket import *
 
 serverPort = 12000
-serverSocket = socket(AF_INET, SOCK_DGRAM)
+serverSocket = socket(AF_INET, SOCK_STREAM)
 serverSocket.bind(('', serverPort))
+serverSocket.listen(1)
 print('server is up and ready')
+connectionSocket, clientAddr = serverSocket.accept()
+print('connection established with {}'.format(clientAddr))
 while True:
-    message, clientAddr = serverSocket.recvfrom(2048)
-    print('message "{}" received from {}'.format(message.decode(), clientAddr))
-    modifiedMessage = message.upper()
-    print('sending server response ({}) to {}'.format(modifiedMessage.decode(), clientAddr))
-    serverSocket.sendto(modifiedMessage, clientAddr)
-    print('response sent.')
+    message = connectionSocket.recv(2048).decode()
+    print('{}: {}'.format(clientAddr, message))
+    response = input('enter:')
+    connectionSocket.send(response.encode())

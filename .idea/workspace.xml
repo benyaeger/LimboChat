@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c71c592-e266-43a5-87f3-9352cda5bea3" name="Changes" comment="Print line added to Server.py">
-      <change beforePath="$PROJECT_DIR$/Server.py" beforeDir="false" afterPath="$PROJECT_DIR$/Server.py" afterDir="false" />
-    </list>
+    <list default="true" id="6c71c592-e266-43a5-87f3-9352cda5bea3" name="Changes" comment="Endless receiving and sending messages on server side" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,18 +43,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Server.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.Client.executor": "Run",
+    "Python.Server.executor": "Run",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "tcp",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Client" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Socket Servers" />
@@ -152,7 +150,47 @@
       <option name="project" value="LOCAL" />
       <updated>1714675827943</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="TCP connection method implementation i Client.py and Server.py">
+      <option name="closed" value="true" />
+      <created>1714760984220</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714760984220</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Fixed UDP socket on server to TCP">
+      <option name="closed" value="true" />
+      <created>1714761332360</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1714761332360</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Fixed two mistakes - working with welcome socket instead of TCP socket">
+      <option name="closed" value="true" />
+      <created>1714761418903</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1714761418903</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Fixed two mistakes - working with welcome socket instead of TCP socket">
+      <option name="closed" value="true" />
+      <created>1714761674954</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1714761674954</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Endless receiving and sending messages on server side">
+      <option name="closed" value="true" />
+      <created>1714761912023</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1714761912023</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -172,6 +210,10 @@
     <MESSAGE value="Client File implemented - socket creating, message input, message sending and response listening" />
     <MESSAGE value="Server File implemented" />
     <MESSAGE value="Print line added to Server.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Print line added to Server.py" />
+    <MESSAGE value="TCP connection method implementation i Client.py and Server.py" />
+    <MESSAGE value="Fixed UDP socket on server to TCP" />
+    <MESSAGE value="Fixed two mistakes - working with welcome socket instead of TCP socket" />
+    <MESSAGE value="Endless receiving and sending messages on server side" />
+    <option name="LAST_COMMIT_MESSAGE" value="Endless receiving and sending messages on server side" />
   </component>
 </project>

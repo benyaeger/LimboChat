@@ -2,11 +2,11 @@ from socket import *
 
 serverName = '10.0.0.15'
 serverPort = 12000
-clientSocket = socket(AF_INET, SOCK_DGRAM)
-message = input('Enter string: ')
-print('Sending message to ({},{})...'.format(serverName, serverPort))
-clientSocket.sendto(message.encode(), (serverName, serverPort))
-print('message sent to ({},{})'.format(serverName, serverPort))
-modifiedMessage, serverAddress = clientSocket.recvfrom(2048)
-print('{} responded: {}'.format(serverAddress, modifiedMessage.decode()))
-clientSocket.close()
+clientSocket = socket(AF_INET, SOCK_STREAM)
+clientSocket.connect((serverName, serverPort))
+print('connection has been established with {}'.format((serverName, serverPort)))
+while True:
+    message = input('Enter string: ')
+    clientSocket.send(message.encode())
+    modifiedMessage = clientSocket.recv(2048)
+    print('{} responded: {}'.format((serverName, serverPort), modifiedMessage.decode()))

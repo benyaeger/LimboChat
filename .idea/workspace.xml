@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c71c592-e266-43a5-87f3-9352cda5bea3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client.py" beforeDir="false" afterPath="$PROJECT_DIR$/Client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.py" beforeDir="false" afterPath="$PROJECT_DIR$/Server.py" afterDir="false" />
-    </list>
+    <list default="true" id="6c71c592-e266-43a5-87f3-9352cda5bea3" name="Changes" comment="TCP connection method implementation i Client.py and Server.py" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,7 +55,7 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.Client">
+  <component name="RunManager">
     <configuration name="Client" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Socket Servers" />
       <option name="ENV_FILES" value="" />
@@ -154,7 +150,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714675827943</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="TCP connection method implementation i Client.py and Server.py">
+      <option name="closed" value="true" />
+      <created>1714760984220</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714760984220</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -174,6 +178,7 @@
     <MESSAGE value="Client File implemented - socket creating, message input, message sending and response listening" />
     <MESSAGE value="Server File implemented" />
     <MESSAGE value="Print line added to Server.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Print line added to Server.py" />
+    <MESSAGE value="TCP connection method implementation i Client.py and Server.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="TCP connection method implementation i Client.py and Server.py" />
   </component>
 </project>

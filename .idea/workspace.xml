@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c71c592-e266-43a5-87f3-9352cda5bea3" name="Changes" comment="TCP connection method implementation i Client.py and Server.py" />
+    <list default="true" id="6c71c592-e266-43a5-87f3-9352cda5bea3" name="Changes" comment="Fixed two mistakes - working with welcome socket instead of TCP socket">
+      <change beforePath="$PROJECT_DIR$/Server.py" beforeDir="false" afterPath="$PROJECT_DIR$/Server.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -158,7 +160,23 @@
       <option name="project" value="LOCAL" />
       <updated>1714760984220</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Fixed UDP socket on server to TCP">
+      <option name="closed" value="true" />
+      <created>1714761332360</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1714761332360</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Fixed two mistakes - working with welcome socket instead of TCP socket">
+      <option name="closed" value="true" />
+      <created>1714761418903</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1714761418903</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -179,6 +197,8 @@
     <MESSAGE value="Server File implemented" />
     <MESSAGE value="Print line added to Server.py" />
     <MESSAGE value="TCP connection method implementation i Client.py and Server.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="TCP connection method implementation i Client.py and Server.py" />
+    <MESSAGE value="Fixed UDP socket on server to TCP" />
+    <MESSAGE value="Fixed two mistakes - working with welcome socket instead of TCP socket" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed two mistakes - working with welcome socket instead of TCP socket" />
   </component>
 </project>

@@ -1,5 +1,5 @@
 from socket import *
-
+#Deploy Check
 serverName = '10.0.0.15'
 serverPort = 12000
 clientSocket = socket(AF_INET, SOCK_STREAM)

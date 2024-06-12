@@ -3,7 +3,7 @@ name: Deploy to Heroku
 on:
   push:
     branches:
-      - main  # Change to your default branch if different
+      - master  # Change to your default branch if different
 
 jobs:
   deploy:
@@ -27,5 +27,5 @@ jobs:
       env:
         HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
       run: |
-        git remote add heroku https://git.heroku.com/<your-heroku-app-name>.git
+        git remote add heroku https://git.heroku.com/fast-sierra-40431.git
         git push heroku master  # Change to your default branch if different
